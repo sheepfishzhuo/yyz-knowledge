@@ -5,8 +5,8 @@ import { set_sidebar } from "./utils/auto_sidebar.mjs";
 export default defineConfig({
   title: "羊鱼串的文档站",
   description: "羊鱼串的文档站",
-  base: "/yyz-kb/",
-  head: [["link", { rel: "icon", href: "/yyz-kb/logo.jpg" }]],
+  base: "/yyz-knowledge/",
+  head: [["link", { rel: "icon", href: "/yyz-knowledge/logo.jpg" }]],
   markdown:{
     math:true
   },
