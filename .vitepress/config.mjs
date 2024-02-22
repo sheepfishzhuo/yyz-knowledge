@@ -8,7 +8,8 @@ export default defineConfig({
   base: "/yyz-knowledge/",
   head: [["link", { rel: "icon", href: "/yyz-knowledge/logo.jpg" }]],
   markdown:{
-    math:true
+    math:true,
+    lineNumbers: true
   },
   themeConfig: {
     outlineTitle: "文章目录",
@@ -19,6 +20,7 @@ export default defineConfig({
       { text: '首页', link: '/' },
       { text: '示例页', link: '/markdown-examples' },
       { text: '点云', link: '/point-cloud/' },
+      { text: '深度学习', link: '/deep-learning/' },
       { text: 'Python', items: [
         { text: '基础', link: '/python/base/' },
         { text: '进阶', link: '/python/advanced/' },
@@ -28,6 +30,7 @@ export default defineConfig({
       '/point-cloud/': set_sidebar('/point-cloud'),
       '/python/base/': set_sidebar('/python/base/'),
       '/python/advanced/': set_sidebar('/python/advanced/'),
+      '/deep-learning/': set_sidebar('/deep-learning/'),
     },
 
     socialLinks: [
