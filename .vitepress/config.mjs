@@ -9,7 +9,14 @@ export default defineConfig({
   head: [["link", { rel: "icon", href: "/yyz-knowledge/logo.jpg" }]],
   markdown:{
     math:true,
-    lineNumbers: true
+    lineNumbers: true,
+    container: {
+      tipLabel: '输出结果',
+      warningLabel: '警告',
+      dangerLabel: '危险',
+      infoLabel: '信息',
+      detailsLabel: '详细信息'
+    }
   },
   themeConfig: {
     outlineTitle: "文章目录",
