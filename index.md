@@ -18,11 +18,16 @@ hero:
       link: /api-examples
 
 features:
-  - title: 💡 小建议
+  - icon: 💡
+    title: 小建议
     details: 选择永远大于努力
-  - title: 🧗 努力
+    # link: https://lyxdream.github.io/tool-kit/webrtc/index
+    # linkText: 常用趣味工具
+  - icon: 🧗
+    title: 努力
     details: 如果做一件事就努力把它做好
-  - title: 🤔 思考
+  - icon: 🤔
+    title: 思考
     details: 学会思考，不要人云亦云
 ---
 
